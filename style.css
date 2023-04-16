@@ -3,10 +3,16 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#site {
-  background-color: lightgrey;
+#site-favorito {
+  position: absolute;
+  background-color: ghostwhite;
   text-align: center;
+  z-index: 6;
+  top: 500px;
+  padding: 5px;
+  left: 50%;
 }
+
 h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -20,5 +26,56 @@ strong {
 }
 
 .minhas-habilidades {
-  font-size: 24px;
+  font-size: 20px;
+  position: absolute;
+  z-index: 5;
+  top: 300px;
+  left: 350px;
+}
+
+h1{
+  text-align: center;
+  border: 3px solid purple;
+  left: 50%;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  margin: 15px;
+}
+
+img{
+  border: 5px solid purple;
+  float: left;
+  top: 150px;
+  margin: 5px;
+  position: absolute;
+  z-index: 2;
+  padding: 5px;
+  background-color: papayawhip;
+}
+
+#quem-sou-eu{
+  border: 3px solid purple;
+  left: 350px;
+  top: 150px;
+  position: absolute;
+  z-index: 3;
+  padding: 10px;
+}
+
+h3{
+  position: absolute;
+  top:250px;
+  left: 350px;
+  z-index: 4;
+}
+
+.links{
+  position: absolute;
+  z-index: 7;
+  top: 300px;
+  left: 750px;
+}
+.minhas-habilidades:nth-last-child(odd){
+  font-style: italic;
 }
