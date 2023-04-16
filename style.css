@@ -9,7 +9,7 @@ body {
   text-align: center;
   z-index: 6;
   top: 500px;
-  padding: 3px;
+  padding: 5px;
   left: 50%;
 }
 
@@ -40,6 +40,7 @@ h1{
   padding: 10px;
   position: absolute;
   z-index: 1;
+  margin: 15px;
 }
 
 img{
