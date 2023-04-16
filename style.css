@@ -22,3 +22,29 @@ strong {
 .minhas-habilidades {
   font-size: 24px;
 }
+
+h1{
+  text-align: center;
+  border: 3px solid purple;
+  left: 500px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+img{
+  border: 5px solid purple;
+  float: left;
+  top: 150px;
+  margin: 5px;
+  position: absolute;
+  z-index: 2;
+}
+
+#quem-sou-eu{
+  border: 3px solid purple;
+  left: 350px;
+  top: 150px;
+  position: absolute;
+  z-index: 3;
+}
